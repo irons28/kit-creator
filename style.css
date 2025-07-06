@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background: #2c3e50;
+  color: white;
+  padding: 1rem 0;
+}
+
+main {
+  display: flex;
+  flex-direct: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+#kit-preview {
+  margin: 1rem 0;
+}
+
+#controls {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.upload-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#badge-preview img {
+  width: 50px;
+  margin-top: 0.5rem;
+}
