@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kit Creator MVP</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <header>
+    <h1>Kit Creator MVP</h1>
+  </header>
+  <main>
+    <section id="kit-preview">
+      <!-- Simple SVG shirt template __>
+      <svg id="kit-svg" viewBox="0 0 200" width="200" height="200">
+        <!-- Shirt body -->
+        <path id="shirt-body" d="M50,30 L150,30 L170,70 L170,170 L30,170 L30,70 Z" fill="#2c3e50>
+        <!-- Sleeves -->
+        <path id="shirt-sleeves" d="M30,70 L0,60 L0,100 L30,100 Z M170,70 L200,60 L22,100 L170,100 Z fill="#0097a7">
+      </svg>
+    </section>
+    <section id="controls">
+      <label>Body Color: <input type="color" id="body-color" value="2c3e50"></label>
+      <label>Sleeve Color: <input type="color" id="sleeve-color" value="0097a7"></label>
+
+      <div class="upload-section">
+        <label for="badge-upload">Upload Badge:</label>
+        <input type="file id="badge-upload" accept="image/*">
+        <div id="badge-preview></div>
+      </div>
+    </section>
+  </main>
+  <script src="scripts.js"></script>
+</body>
+</html>
